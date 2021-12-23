@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace DellayCallHelper
+namespace DelayCallHelper
 {
 
     public static class Utils
