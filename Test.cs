@@ -29,36 +29,4 @@ public class Test : MonoBehaviour
         });
 
     }
-
-
-
-
-
-   
-  
-
-    public async void StartAction() 
-    {
-        await RotateObj();
-        await RotateObj2();
-        Debug.Log(" StartAction end ");
-
-    }
-    public async Task RotateObj() 
-    {
-        for (int i = 0; i < 100; i++) 
-        {
-            Debug.Log("RotateObj");
-            await Task.Yield();
-        }
-    } 
-    
-    public async Task RotateObj2() 
-    {
-        for (int i = 0; i < 100; i++) 
-        {
-            Debug.Log("RotateObj2");
-              Task.Yield();
-        }
-    }
 }
