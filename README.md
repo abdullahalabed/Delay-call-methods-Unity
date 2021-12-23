@@ -1,4 +1,4 @@
-# Dellay-call-methods-Unity
+# Delay-call-methods-Unity
 this class used to delay call block of codes that needs to be run in unity after period of time
 
 In order to use this class :
